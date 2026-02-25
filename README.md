@@ -2,20 +2,6 @@
 
 > **power tools for publishing quality curations to the web**
 
-## get inspired
-
-### [clumsycomputer](https://www.clumsycomputer.stews.io) _(personal stew)_
-
-an assortment of great music, awesome spots, and sweet sweet links
-
-### [pl-archive](https://www.prettylights.stews.io) _(community stew)_
-
-an extensive catalog of the Pretty Lights musical project
-
-### [bakedgoods](https://www.bakedgoods.stews.io) _(curator stew)_
-
-choice selections from modern electronic music
-
 ## get started
 
 ### create stew
@@ -23,7 +9,7 @@ choice selections from modern electronic music
 ##### run command to create stew
 
 ```bash
-deno run -A https://deno.stews.io/init.ts ./your-stew
+deno run -A https://raw.githubusercontent.com/fur-tea-laser/stews-toolkit/port-old/stew-command/init.ts ./your-stew
 ```
 
 ##### navigate into your stew's directory

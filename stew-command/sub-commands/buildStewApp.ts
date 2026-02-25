@@ -481,7 +481,7 @@ function writeAppManifestFile(api: WriteAppManifestFileApi) {
   return Deno.writeTextFile(
     buildDirectoryMap.manifestJson,
     JSON.stringify({
-      name: `stews.io: ${stewBuildConfig.stewInfo.stewName}`,
+      name: `stews: ${stewBuildConfig.stewInfo.stewName}`,
       short_name: stewBuildConfig.stewInfo.stewName,
       start_url: "/",
       display: "standalone",

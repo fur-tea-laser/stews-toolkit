@@ -1,5 +1,5 @@
-import { parseCliArgs } from "https://raw.githubusercontent.com/stews-io/toolkit/production/stew-command/deps/std/flags.ts";
-import { setupStewProject } from "https://raw.githubusercontent.com/stews-io/toolkit/production/stew-command/sub-commands/setupStewProject.ts";
+import { parseCliArgs } from "https://raw.githubusercontent.com/fur-tea-laser/stews-toolkit/production/stew-command/deps/std/flags.ts";
+import { setupStewProject } from "https://raw.githubusercontent.com/fur-tea-laser/stews-toolkit/production/stew-command/sub-commands/setupStewProject.ts";
 
 try {
   const parsedCliArgs = parseCliArgs(Deno.args);

@@ -5,7 +5,7 @@ import { getPathExtension } from "./deps/std/path.ts";
 
 const buildDirectoryPath = parseDenoArgs(Deno.args)._[0];
 
-Deno.serve({ port: 8080 }, handleRequest);
+Deno.serve({ port: 8000 }, handleRequest);
 
 async function handleRequest(someRequest: Request) {
   try {

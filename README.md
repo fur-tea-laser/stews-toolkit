@@ -9,7 +9,7 @@
 ##### run command to create stew
 
 ```bash
-deno run -A https://raw.githubusercontent.com/fur-tea-laser/stews-toolkit/port-old/stew-command/init.ts ./your-stew
+deno run -A https://raw.githubusercontent.com/fur-tea-laser/stews-toolkit/0.4.8/stew-command/init.ts ./your-stew
 ```
 
 ##### navigate into your stew's directory

@@ -1,5 +1,5 @@
-@import "./normalize.css";
-@import "../../stew-library/styles/theme.scss";
+@use "./normalize.css";
+@use "../../stew-library/styles/theme.scss";
 
 body {
   @extend .defaultBoxModel;

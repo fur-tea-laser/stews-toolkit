@@ -168,14 +168,14 @@ function SegmentContentFooter(props: SegmentContentFooterProps) {
       <div className={cssModule.contentFooter}>
         <LinkButton
           className={cssModule.footerLinkButton}
-          ariaLabel={"go to the stews.io landing page"}
+          ariaLabel={"go to the stews repository"}
           ariaDescription={
-            "a button that opens a new tab and navigates to stews.io"
+            "a button that opens a new tab and navigates to the stews repository"
           }
-          href={"https://www.stews.io"}
+          href={"https://github.com/fur-tea-laser/stews-toolkit"}
           target={"_blank"}
         >
-          stews.io
+          stews
         </LinkButton>
       </div>
     </div>

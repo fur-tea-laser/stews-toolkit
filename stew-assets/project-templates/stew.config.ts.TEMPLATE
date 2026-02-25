@@ -15,13 +15,13 @@ function getStewConfig(): SourceStewConfig {
       stewMessage: "[REPLACE W/ MESSAGE]",
       stewLinks: [
         {
-          linkLabel: "website",
-          linkHref: "https://www.stews.io",
+          linkLabel: "profile",
+          linkHref: "https://github.com/fur-tea-laser",
           linkIconSvg: getWebsiteIconSvg(),
         },
         {
           linkLabel: "github",
-          linkHref: "https://github.com/stews-io",
+          linkHref: "https://github.com/fur-tea-laser/stews-toolkit",
           linkIconSvg: getGithubIconSvg(),
         },
       ],

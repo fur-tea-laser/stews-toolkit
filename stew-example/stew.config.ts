@@ -22,7 +22,7 @@ function getStewExampleConfig(): SourceStewConfig {
         },
         {
           linkLabel: "github",
-          linkHref: "https://github.com/stews-io",
+          linkHref: "https://github.com/fur-tea-laser/stews-toolkit",
           linkIconSvg: getGithubIconSvg(),
         },
       ],
